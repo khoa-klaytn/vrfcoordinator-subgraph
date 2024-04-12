@@ -1,12 +1,12 @@
 # example-subgraph
 
-Example Subgraph for Baobab ERC20 contract.
+Example Subgraph for Orakl's VRFCoordinator contract running on Cypress.
 
 - tracks `n_transfers`, the number of transfers made by each address
 
 This example uses the following contract details:
 
-- Address: [0x569A8e0e23e8f338752B568b721075574426f693](https://baobab.klaytnfinder.io/account/0x569A8e0e23e8f338752B568b721075574426f693)
+- Address: [0x569A8e0e23e8f338752B568b721075574426f693](https://klaytnfinder.io/account/0x569A8e0e23e8f338752B568b721075574426f693)
 - Start Block: 150554742
 
 ## Table of Contents
@@ -58,7 +58,7 @@ export IPFS_ADMIN_URL=<IPFS Node Admin URL>
 pnpm run deploy
 ```
 
-> Note: The Graph Node must be running on Baobab testnet.
+> Note: The Graph Node must be running on Cypress mainnet.
 
 6. Query the subgraph
 
